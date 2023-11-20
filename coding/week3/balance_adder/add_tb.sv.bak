@@ -1,0 +1,21 @@
+`timescale 1ns/100ps
+
+module testbench;
+reg Clock;
+
+//static int array[3:0] ='{0,1,2,3};
+
+
+aatest  aa1( );	
+
+initial
+begin
+	Clock = 0;
+	forever
+	#5 Clock = ~Clock;
+	
+end
+
+//aatest.b_add(0, 3);
+
+endmodule

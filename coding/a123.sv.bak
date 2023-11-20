@@ -1,0 +1,30 @@
+package chip_types;
+    typedef enum {FETCH, WRITE, ADD, SUB, MULT, DIV, SHIFT, NOP} instr_t;
+endpackage
+
+import chip_types::*;
+module controller3 (output logic read, write,
+		   input instr_t instruction,
+		   input logic clk, resetN);
+
+	enum {WAITE, LOAD, STORE} State, NextState;
+
+	always @(posedge clock, negedge resetN)
+		if(!resetN) State <= WAITE; 
+		else State <= NextState;
+
+	always_comb begin
+		case (State)
+			WAITE: NextState = LOAD;
+			LOAD: NextState = STORE;
+			STORE: NextState = WAITE;
+		endcase
+	end
+	
+	always@(State, instruction) begin
+		read = 0; write= 0; 
+		if (State == LOAD && instruction == FETCH) read = 1;
+		else if (State == STORE && instruction == WRITE) write=1;
+	end
+	
+endmodule

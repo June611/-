@@ -1,0 +1,8 @@
+module tt_assign_output();
+	function [3:0] add(input logic[3:0] a, logic[3:0] b) begin
+		// add = a+b;
+		return a+b;
+
+	end
+
+endmodule

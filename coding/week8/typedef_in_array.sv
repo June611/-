@@ -1,0 +1,15 @@
+module typedef_in_array();
+	typedef logic[3:0] nibble;	//packed array
+	nibble [31:0] big_word;		//packed array
+	
+	initial begin
+		//# 10 big_word = '1;
+		//# 10 big_word = '0;
+		logic [3:0] a,b ;
+		a = 4'b010z;
+		b = 4'b0101;
+		$display("a==?b is %d", a==?b );
+		$display("a!=?b is %d", a!=?b );
+	end
+
+endmodule

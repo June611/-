@@ -1,0 +1,24 @@
+module testbench;
+
+  // 信号声明
+  reg Clock;
+Clock = 0;
+
+  // 被测试模块实例化
+  aatest uut (
+    .Clock(Clock)
+  );
+
+  // 初始化时钟信号
+  initial begin
+    
+    // 等待一些时间
+    
+    // 调用被测试模块中的函数
+    int result = uut.b_add(0, 3);
+    $display("Function result: %d", result);
+    // 终止仿真
+    $finish;
+  end
+
+endmodule

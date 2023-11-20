@@ -1,0 +1,11 @@
+module sta_dyn();
+function int def_cnt_auto(input a);
+    automatic int cnt = 0;
+    cnt += a;
+    return cnt;
+  endfunction
+	initial begin
+    $display("@1 def_cnt_auto = %0d", def_cnt_auto(1));
+    $display("@2 def_cnt_auto = %0d", def_cnt_auto(1));
+	end
+endmodule

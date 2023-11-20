@@ -1,0 +1,31 @@
+`include"pcg_one.pkg"		//It work? 
+''' test if the enum in the package can be resolved'''
+
+
+module ALU(input definitions::instruction_t IW,
+			input logic clock,  
+			output logic [31:0]result);
+/*	import definitions::ADD;
+	import definitions::SUB;
+	import definitions::MUL;
+	import definitions::multiplier;
+*/
+	import definitions::opcodes_t;
+	opcodes_t op1;
+	always_ff@(posedge clock)begin
+		case(IW.opcode)
+			op1.ADD: result = IW.a + IW.b;
+			op1.SUB: result = IW.a - IW.b;
+			op1.MUL: result = multiplier(IW.a, IW.b);
+		endcase
+	end
+
+	/*
+	opcodes_t op1;
+	initial begin
+		
+		 integer i;
+		i = op1.ADD;
+	//op1 =  ADD;
+	*/
+endmodule

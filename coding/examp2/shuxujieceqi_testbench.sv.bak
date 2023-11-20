@@ -1,0 +1,38 @@
+`timescale 1ns/100ps
+module testbench;
+reg Data, Clock;
+wire Detect;
+//integer Out_file;
+
+//the instance of the module to be test
+Count3_1s  DUT(Data, Clock, Detect);	//位置关联方式
+initial
+begin
+	Clock = 0;
+	forever
+	#5 Clock = ~Clock;
+end
+
+initial
+begin
+	Data = 0;
+	#5 Data = 1;
+	#40 Data = 0;
+	#10 Data = 1;
+	#40 Data = 0;
+	#20 $stop;	//simulation ends
+end
+
+//create a record file
+
+initial
+Out_file = $fopen("results.txt");
+
+
+always@(posedge Clock)
+begin
+	if(Detect == 1'b1)
+		$fwrite(Out_file, "At time %t, Detect out is 1\n", $time);
+		//$display("At time %t, Detect out is 1\n", $time);
+end
+endmodule

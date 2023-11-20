@@ -1,0 +1,21 @@
+import chip_types::*;
+module testbench();
+	logic read, write;
+	instr_t instruction;
+	wire clock, resetN;
+
+	always
+		#5 clock = ~clock;
+
+	initial begin
+		resetN = 1;
+		clock = 0;
+		#20 resetN = 0;
+	end
+
+	controller2 u1(.read(read), .write(write),
+		      .instruction(instruction),
+		      .clock(clock), .resetN(resetN));
+endmodule
+
+

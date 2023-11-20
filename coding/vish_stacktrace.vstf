@@ -1,0 +1,241 @@
+# Current time Thu Oct 12 12:06:14 2023
+# ModelSim SE Stack Trace
+# Program = vish
+# Id = "10.7"
+# Version = "2017.12"
+# Date = "Dec  7 2017"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4033fee3. Traceback:
+# 0    0x4033fee3: 'Mtirpc_Init + 0x182fb3'
+# 1    0x40341d41: 'Mtirpc_Init + 0x184e11'
+# 2    0x4033f6b1: 'Mtirpc_Init + 0x182781'
+# 3    0x4033e41a: 'Mtirpc_Init + 0x1814ea'
+# 4    0x4033dea5: 'Mtirpc_Init + 0x180f75'
+# 5    0x402f2216: 'Mtirpc_Init + 0x1352e6'
+# 6    0x402f3fa2: 'Mtirpc_Init + 0x137072'
+# 7    0x402ed9d5: 'Mtirpc_Init + 0x130aa5'
+# 8    0x402ee477: 'Mtirpc_Init + 0x131547'
+# 9    0x402a15b1: 'Mtirpc_Init + 0xe4681'
+# 10   0x4028bf33: 'Mtirpc_Init + 0xcf003'
+# 11   0x402ef30a: 'Mtirpc_Init + 0x1323da'
+# 12   0x402eeee5: 'Mtirpc_Init + 0x131fb5'
+# 13   0x4024ac84: 'Mtirpc_Init + 0x8dd54'
+# 14   0x40195c8b: 'Tclsqlite3_SafeInit + 0x12623b'
+# 15   0x40195e00: 'Tclsqlite3_SafeInit + 0x1263b0'
+# 16   0x4018f27d: 'Tclsqlite3_SafeInit + 0x11f82d'
+# 17   0x4018f0a8: 'Tclsqlite3_SafeInit + 0x11f658'
+# 18   0x40190323: 'Tclsqlite3_SafeInit + 0x1208d3'
+# 19   0x665fd41c: 'Tcl_ServiceEvent + 0x9c'
+# 20   0x665fd019: 'Tcl_DoOneEvent + 0x89'
+# 21   0x669d9ba0: 'TkGetDisplayOf + 0x2000'
+# 22   0x66556c03: 'TclNRRunCallbacks + 0x63'
+# 23   0x66556c03: 'TclNRRunCallbacks + 0x63'
+# 24   0x666292e2: 'TclpRealloc + 0xa02'
+# 25   0x6662965c: 'TclServiceIdle + 0x9c'
+# 26   0x665fd0c3: 'Tcl_DoOneEvent + 0x133'
+# 27   0x669eaee5: 'Tk_MainLoop + 0x25'
+# 28   0x66a2d282: 'Tk_MainEx + 0x932'
+# 29   0x401df790: 'Mtirpc_Init + 0x22860'
+# 30   0x401e1e38: 'Mtirpc_Init + 0x24f08'
+# 31   0x40613487: 'Tclsqlite_Init + 0x5717'
+# 32   0x68fd7344: 'BaseThreadInitThunk + 0x14'
+# 33   0x6a2226b1: 'RtlUserThreadStart + 0x21'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Thu Oct 12 12:07:54 2023
+# ModelSim SE Stack Trace
+# Program = vish
+# Id = "10.7"
+# Version = "2017.12"
+# Date = "Dec  7 2017"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4033fee3. Traceback:
+# 0    0x4033fee3: 'Mtirpc_Init + 0x182fb3'
+# 1    0x40341d41: 'Mtirpc_Init + 0x184e11'
+# 2    0x4033f6b1: 'Mtirpc_Init + 0x182781'
+# 3    0x4033e41a: 'Mtirpc_Init + 0x1814ea'
+# 4    0x4033dea5: 'Mtirpc_Init + 0x180f75'
+# 5    0x402f2216: 'Mtirpc_Init + 0x1352e6'
+# 6    0x402f3fa2: 'Mtirpc_Init + 0x137072'
+# 7    0x402ed9d5: 'Mtirpc_Init + 0x130aa5'
+# 8    0x402ee477: 'Mtirpc_Init + 0x131547'
+# 9    0x402a15b1: 'Mtirpc_Init + 0xe4681'
+# 10   0x4028bf33: 'Mtirpc_Init + 0xcf003'
+# 11   0x402ef30a: 'Mtirpc_Init + 0x1323da'
+# 12   0x402eeee5: 'Mtirpc_Init + 0x131fb5'
+# 13   0x4024ac84: 'Mtirpc_Init + 0x8dd54'
+# 14   0x40195c8b: 'Tclsqlite3_SafeInit + 0x12623b'
+# 15   0x40195e00: 'Tclsqlite3_SafeInit + 0x1263b0'
+# 16   0x4018f27d: 'Tclsqlite3_SafeInit + 0x11f82d'
+# 17   0x4018f0a8: 'Tclsqlite3_SafeInit + 0x11f658'
+# 18   0x40190323: 'Tclsqlite3_SafeInit + 0x1208d3'
+# 19   0x665fd41c: 'Tcl_ServiceEvent + 0x9c'
+# 20   0x665fd019: 'Tcl_DoOneEvent + 0x89'
+# 21   0x669d9ba0: 'TkGetDisplayOf + 0x2000'
+# 22   0x66556c03: 'TclNRRunCallbacks + 0x63'
+# 23   0x66556c03: 'TclNRRunCallbacks + 0x63'
+# 24   0x666292e2: 'TclpRealloc + 0xa02'
+# 25   0x6662965c: 'TclServiceIdle + 0x9c'
+# 26   0x665fd0c3: 'Tcl_DoOneEvent + 0x133'
+# 27   0x669eaee5: 'Tk_MainLoop + 0x25'
+# 28   0x66a2d282: 'Tk_MainEx + 0x932'
+# 29   0x401df790: 'Mtirpc_Init + 0x22860'
+# 30   0x401e1e38: 'Mtirpc_Init + 0x24f08'
+# 31   0x40613487: 'Tclsqlite_Init + 0x5717'
+# 32   0x68fd7344: 'BaseThreadInitThunk + 0x14'
+# 33   0x6a2226b1: 'RtlUserThreadStart + 0x21'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Thu Oct 12 12:11:32 2023
+# ModelSim SE Stack Trace
+# Program = vish
+# Id = "10.7"
+# Version = "2017.12"
+# Date = "Dec  7 2017"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4033fee3. Traceback:
+# 0    0x4033fee3: 'Mtirpc_Init + 0x182fb3'
+# 1    0x40341d41: 'Mtirpc_Init + 0x184e11'
+# 2    0x4033f6b1: 'Mtirpc_Init + 0x182781'
+# 3    0x4033e41a: 'Mtirpc_Init + 0x1814ea'
+# 4    0x4033dea5: 'Mtirpc_Init + 0x180f75'
+# 5    0x402f2216: 'Mtirpc_Init + 0x1352e6'
+# 6    0x402f3fa2: 'Mtirpc_Init + 0x137072'
+# 7    0x402ed9d5: 'Mtirpc_Init + 0x130aa5'
+# 8    0x402ee477: 'Mtirpc_Init + 0x131547'
+# 9    0x402a15b1: 'Mtirpc_Init + 0xe4681'
+# 10   0x4028bf33: 'Mtirpc_Init + 0xcf003'
+# 11   0x402ef30a: 'Mtirpc_Init + 0x1323da'
+# 12   0x402eeee5: 'Mtirpc_Init + 0x131fb5'
+# 13   0x4024ac84: 'Mtirpc_Init + 0x8dd54'
+# 14   0x40195c8b: 'Tclsqlite3_SafeInit + 0x12623b'
+# 15   0x40195e00: 'Tclsqlite3_SafeInit + 0x1263b0'
+# 16   0x4018f27d: 'Tclsqlite3_SafeInit + 0x11f82d'
+# 17   0x4018f0a8: 'Tclsqlite3_SafeInit + 0x11f658'
+# 18   0x40190323: 'Tclsqlite3_SafeInit + 0x1208d3'
+# 19   0x665fd41c: 'Tcl_ServiceEvent + 0x9c'
+# 20   0x665fd019: 'Tcl_DoOneEvent + 0x89'
+# 21   0x669d9ba0: 'TkGetDisplayOf + 0x2000'
+# 22   0x66556c03: 'TclNRRunCallbacks + 0x63'
+# 23   0x66556c03: 'TclNRRunCallbacks + 0x63'
+# 24   0x666292e2: 'TclpRealloc + 0xa02'
+# 25   0x6662965c: 'TclServiceIdle + 0x9c'
+# 26   0x665fd0c3: 'Tcl_DoOneEvent + 0x133'
+# 27   0x669eaee5: 'Tk_MainLoop + 0x25'
+# 28   0x66a2d282: 'Tk_MainEx + 0x932'
+# 29   0x401df790: 'Mtirpc_Init + 0x22860'
+# 30   0x401e1e38: 'Mtirpc_Init + 0x24f08'
+# 31   0x40613487: 'Tclsqlite_Init + 0x5717'
+# 32   0x68fd7344: 'BaseThreadInitThunk + 0x14'
+# 33   0x6a2226b1: 'RtlUserThreadStart + 0x21'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Thu Oct 12 12:21:19 2023
+# ModelSim SE Stack Trace
+# Program = vish
+# Id = "10.7"
+# Version = "2017.12"
+# Date = "Dec  7 2017"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4033fee3. Traceback:
+# 0    0x4033fee3: 'Mtirpc_Init + 0x182fb3'
+# 1    0x40341d41: 'Mtirpc_Init + 0x184e11'
+# 2    0x4033f6b1: 'Mtirpc_Init + 0x182781'
+# 3    0x4033e41a: 'Mtirpc_Init + 0x1814ea'
+# 4    0x4033dea5: 'Mtirpc_Init + 0x180f75'
+# 5    0x402f2216: 'Mtirpc_Init + 0x1352e6'
+# 6    0x402f3fa2: 'Mtirpc_Init + 0x137072'
+# 7    0x402ed9d5: 'Mtirpc_Init + 0x130aa5'
+# 8    0x402ee477: 'Mtirpc_Init + 0x131547'
+# 9    0x402a15b1: 'Mtirpc_Init + 0xe4681'
+# 10   0x4028bf33: 'Mtirpc_Init + 0xcf003'
+# 11   0x402ef30a: 'Mtirpc_Init + 0x1323da'
+# 12   0x402eeee5: 'Mtirpc_Init + 0x131fb5'
+# 13   0x4024ac84: 'Mtirpc_Init + 0x8dd54'
+# 14   0x40195c8b: 'Tclsqlite3_SafeInit + 0x12623b'
+# 15   0x40195e00: 'Tclsqlite3_SafeInit + 0x1263b0'
+# 16   0x4018f27d: 'Tclsqlite3_SafeInit + 0x11f82d'
+# 17   0x4018f0a8: 'Tclsqlite3_SafeInit + 0x11f658'
+# 18   0x40190323: 'Tclsqlite3_SafeInit + 0x1208d3'
+# 19   0x66a8d41c: 'Tcl_ServiceEvent + 0x9c'
+# 20   0x66a8d0b4: 'Tcl_DoOneEvent + 0x124'
+# 21   0x403df711: 'TPedit_Init + 0x30fa1'
+# 22   0x401a108a: 'Tclsqlite3_SafeInit + 0x13163a'
+# 23   0x669e6234: 'TclInvokeStringCommand + 0x84'
+# 24   0x669e6c03: 'TclNRRunCallbacks + 0x63'
+# 25   0x669e6c03: 'TclNRRunCallbacks + 0x63'
+# 26   0x607a0bfa: 'Itcl_EvalMemberCode + 0x3ba'
+# 27   0x607a1dbb: 'Itcl_ExecMethod + 0x23b'
+# 28   0x607a9879: 'Itcl_EvalArgs + 0x1c9'
+# 29   0x607a4b51: 'Itcl_HandleInstance + 0x2c1'
+# 30   0x669e6c03: 'TclNRRunCallbacks + 0x63'
+# 31   0x665a3f1e: 'TkSetWindowMenuBar + 0x96e'
+# 32   0x664f3636: 'TkWinHandleMenuEvent + 0x486'
+# 33   0x664f4193: 'TkWinHandleMenuEvent + 0xfe3'
+# 34   0x69e6e858: 'CallWindowProcW + 0x3f8'
+# 35   0x69e6e299: 'DispatchMessageW + 0x259'
+# 36   0x66ae25f1: 'Tcl_WaitForEvent + 0x161'
+# 37   0x66a8d083: 'Tcl_DoOneEvent + 0xf3'
+# 38   0x6655aee5: 'Tk_MainLoop + 0x25'
+# 39   0x6659d282: 'Tk_MainEx + 0x932'
+# 40   0x401df790: 'Mtirpc_Init + 0x22860'
+# 41   0x401e1e38: 'Mtirpc_Init + 0x24f08'
+# 42   0x40613487: 'Tclsqlite_Init + 0x5717'
+# 43   0x68fd7344: 'BaseThreadInitThunk + 0x14'
+# 44   0x6a2226b1: 'RtlUserThreadStart + 0x21'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Sat Oct 21 15:34:13 2023
+# ModelSim SE Stack Trace
+# Program = vish
+# Id = "10.7"
+# Version = "2017.12"
+# Date = "Dec  7 2017"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4033fee3. Traceback:
+# 0    0x4033fee3: 'Mtirpc_Init + 0x182fb3'
+# 1    0x40341d41: 'Mtirpc_Init + 0x184e11'
+# 2    0x4033f6b1: 'Mtirpc_Init + 0x182781'
+# 3    0x4033e41a: 'Mtirpc_Init + 0x1814ea'
+# 4    0x4033dea5: 'Mtirpc_Init + 0x180f75'
+# 5    0x402f2216: 'Mtirpc_Init + 0x1352e6'
+# 6    0x402f3fa2: 'Mtirpc_Init + 0x137072'
+# 7    0x402ed9d5: 'Mtirpc_Init + 0x130aa5'
+# 8    0x402ee477: 'Mtirpc_Init + 0x131547'
+# 9    0x402a15b1: 'Mtirpc_Init + 0xe4681'
+# 10   0x4028bf33: 'Mtirpc_Init + 0xcf003'
+# 11   0x402ef30a: 'Mtirpc_Init + 0x1323da'
+# 12   0x402eeee5: 'Mtirpc_Init + 0x131fb5'
+# 13   0x4024ac84: 'Mtirpc_Init + 0x8dd54'
+# 14   0x40195c8b: 'Tclsqlite3_SafeInit + 0x12623b'
+# 15   0x40195e00: 'Tclsqlite3_SafeInit + 0x1263b0'
+# 16   0x4018f27d: 'Tclsqlite3_SafeInit + 0x11f82d'
+# 17   0x4018f0a8: 'Tclsqlite3_SafeInit + 0x11f658'
+# 18   0x40190323: 'Tclsqlite3_SafeInit + 0x1208d3'
+# 19   0x71f7d41c: 'Tcl_ServiceEvent + 0x9c'
+# 20   0x71f7d019: 'Tcl_DoOneEvent + 0x89'
+# 21   0x720b9ba0: 'TkGetDisplayOf + 0x2000'
+# 22   0x71ed6c03: 'TclNRRunCallbacks + 0x63'
+# 23   0x71ed6c03: 'TclNRRunCallbacks + 0x63'
+# 24   0x71fa92e2: 'TclpRealloc + 0xa02'
+# 25   0x71fa965c: 'TclServiceIdle + 0x9c'
+# 26   0x71f7d0c3: 'Tcl_DoOneEvent + 0x133'
+# 27   0x720caee5: 'Tk_MainLoop + 0x25'
+# 28   0x7210d282: 'Tk_MainEx + 0x932'
+# 29   0x401df790: 'Mtirpc_Init + 0x22860'
+# 30   0x401e1e38: 'Mtirpc_Init + 0x24f08'
+# 31   0x40613487: 'Tclsqlite_Init + 0x5717'
+# 32   0xc2517344: 'BaseThreadInitThunk + 0x14'
+# 33   0xc2be26b1: 'RtlUserThreadStart + 0x21'
+StackWalk failed 0
+# End of Stack Trace
+

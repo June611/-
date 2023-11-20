@@ -1,0 +1,137 @@
+D:/Importantapps/modeltech64_10.7/workfile/week8/array_assign.sv {0 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/week8/array_assign.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module array_assgin
+** Error: D:/Importantapps/modeltech64_10.7/workfile/week8/array_assign.sv(9): Bit stream casting is only allowed on same size data.
+** Error: D:/Importantapps/modeltech64_10.7/workfile/week8/array_assign.sv(10): Bit stream casting is only allowed on same size data.
+** Error: D:/Importantapps/modeltech64_10.7/workfile/week8/array_assign.sv(11): Bit stream casting is only allowed on same size data.
+
+} {4.0 7.0} {}} D:/Importantapps/modeltech64_10.7/workfile/week9/tt_assign_output.sv {1 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/week9/tt_assign_output.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module tt_assign_output
+
+Top level modules:
+	tt_assign_output
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/week8/func_bits.sv {1 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/week8/func_bits.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module func_bits
+
+Top level modules:
+	func_bits
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/week8/typedef_in_array.sv {1 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/week8/typedef_in_array.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module typedef_in_array
+
+Top level modules:
+	typedef_in_array
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/week8/always_block2.sv {1 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/week8/always_block2.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling package chip_types
+-- Compiling package always_block2_sv_unit
+-- Importing package chip_types
+-- Compiling module controller2
+
+Top level modules:
+	controller2
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/mytest/jam_assign.sv {1 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/mytest/jam_assign.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module counter
+-- Compiling module tb1
+-- Compiling module tb2
+
+Top level modules:
+	tb1
+	tb2
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv {2 vlog\ -work\ work\ -vopt\ -sv\ -stats=none\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv\nModel\ Technology\ ModelSim\ SE-64\ vlog\ 10.7\ Compiler\ 2017.12\ Dec\ \ 7\ 2017\n--\ Compiling\ module\ score_sort\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(12):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"zhangsan\",\"20230001\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(13):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"lisi\",\"20230002\",\{60,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(14):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"wangyu\",\"20230003\",\{91,....\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(15):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"jack\",\"20230004\",\{50,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(16):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Rose\",\"20230005\",\{61,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(17):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Horse\",\"20230006\",\{50,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(18):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Judy\",\"20230007\",\{40,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(19):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Cristina\",\"20230008\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(20):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Antonio\",\"20230009\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(21):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"MA_YOYO\",\"20230010\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(22):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Edward\ Yang\",\"20230011\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(23):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Li\ an\",\"20230012\",\{60,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(24):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Zhangyimo\",\"20230013\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(25):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"ZHoudongyu\",\"20230014\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(26):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Yangying\",\"20230015\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(27):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Huangxiaoming\",\"20230016\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(28):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Jianailiang\",\"20230017\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(29):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Zhuneiliang\",\"20230018\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(30):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Sheildon\",\"20230019\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Warning:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort.sv(68):\ (vlog-2240)\ Treating\ stand-alone\ use\ of\ function\ 'print'\ as\ an\ implicit\ VOID\ cast.\n\nTop\ level\ modules:\n\tscore_sort\n\n {} {}} D:/Importantapps/modeltech64_10.7/workfile/2x4???testbench.sv {1 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/2x4???testbench.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/casett.sv {1 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/casett.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module casett
+
+Top level modules:
+	casett
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/pcg_ref-2.sv {0 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/pcg_ref-2.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling package definitions
+-- Compiling module ALU
+-- Importing package definitions
+** Error (suppressible): (vlog-13276) D:/Importantapps/modeltech64_10.7/workfile/pcg_ref-2.sv(17): Could not find field/method name (ADD) in 'op1' of 'op1.ADD'.
+** Error (suppressible): (vlog-13276) D:/Importantapps/modeltech64_10.7/workfile/pcg_ref-2.sv(18): Could not find field/method name (SUB) in 'op1' of 'op1.SUB'.
+** Error (suppressible): (vlog-13276) D:/Importantapps/modeltech64_10.7/workfile/pcg_ref-2.sv(19): Could not find field/method name (MUL) in 'op1' of 'op1.MUL'.
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/pcg_ref.sv {1 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/pcg_ref.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling package definitions
+-- Compiling module ALU
+-- Importing package definitions
+
+Top level modules:
+	ALU
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/week8/always_block.sv {1 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/week8/always_block.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling package chip_types
+-- Compiling package always_block_sv_unit
+-- Importing package chip_types
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/week10/traffix_light.sv {1 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/week10/traffix_light.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module traffic_light
+
+Top level modules:
+	traffic_light
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/week9/do_while.sv {2 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/week9/do_while.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module do_while
+** Warning: D:/Importantapps/modeltech64_10.7/workfile/week9/do_while.sv(7): (vlog-2182) 'addr' might be read before written in always_comb or always @* block.
+
+Top level modules:
+	do_while
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/week7/union_2_compressed.sv {1 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/week7/union_2_compressed.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module compressd_union
+
+Top level modules:
+	compressd_union
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/mytest/4.sv {0 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/mytest/4.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module circuit
+** Error: (vlog-13069) D:/Importantapps/modeltech64_10.7/workfile/mytest/4.sv(10): near "end": syntax error, unexpected end.
+
+} {4.0 5.0} {}} D:/Importantapps/modeltech64_10.7/workfile/2x4???.sv {1 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/2x4???.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module dec2x4
+
+Top level modules:
+	dec2x4
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv {2 vlog\ -work\ work\ -vopt\ -sv\ -stats=none\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv\nModel\ Technology\ ModelSim\ SE-64\ vlog\ 10.7\ Compiler\ 2017.12\ Dec\ \ 7\ 2017\n--\ Compiling\ package\ scores_sort_v2\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(17):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"zhangsan\",\"20230001\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(18):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"lisi\",\"20230002\",\{60,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(19):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"wangyu\",\"20230003\",\{91,....\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(20):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"jack\",\"20230004\",\{50,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(21):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Rose\",\"20230005\",\{61,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(22):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Horse\",\"20230006\",\{50,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(23):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Judy\",\"20230007\",\{40,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(24):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Cristina\",\"20230008\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(25):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Antonio\",\"20230009\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(26):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"MA_YOYO\",\"20230010\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(27):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Edward\ Yang\",\"20230011\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(28):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Li\ an\",\"20230012\",\{60,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(29):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Zhangyimo\",\"20230013\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(30):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"ZHoudongyu\",\"20230014\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(31):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Yangying\",\"20230015\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(32):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Huangxiaoming\",\"20230016\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(33):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Jianailiang\",\"20230017\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(34):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Zhuneiliang\",\"20230018\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ **\ while\ parsing\ file\ included\ at\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(1)\n**\ at\ D:\\Importantapps\\modeltech64_10.7\\workfile\\week9\\scores_sort_v2.pkg(35):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Sheildon\",\"20230019\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n--\ Compiling\ package\ scores_sort_v22dmain_sv_unit\n--\ Importing\ package\ scores_sort_v2\n--\ Compiling\ module\ score_sort_v2\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(8):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"zhangsan\",\"20230001\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(9):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"lisi\",\"20230002\",\{60,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(10):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"wangyu\",\"20230003\",\{91,....\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(11):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"jack\",\"20230004\",\{50,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(12):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Rose\",\"20230005\",\{61,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(13):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Horse\",\"20230006\",\{50,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(14):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Judy\",\"20230007\",\{40,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(15):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Cristina\",\"20230008\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(16):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Antonio\",\"20230009\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(17):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"MA_YOYO\",\"20230010\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(18):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Edward\ Yang\",\"20230011\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(19):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Li\ an\",\"20230012\",\{60,...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(20):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Zhangyimo\",\"20230013\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(21):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"ZHoudongyu\",\"20230014\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(22):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Yangying\",\"20230015\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(23):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Huangxiaoming\",\"20230016\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(24):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Jianailiang\",\"20230017\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(25):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Zhuneiliang\",\"20230018\",...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Note:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(26):\ (vlog-13177)\ Promoting\ concatenation\ '\{\"Sheildon\",\"20230019\",\{...\},...\}'\ to\ an\ assignment\ pattern:\ \ Unsized\ literal\ found.\n**\ Warning:\ D:/Importantapps/modeltech64_10.7/workfile/week9/scores_sort_v2-main.sv(34):\ (vlog-2240)\ Treating\ stand-alone\ use\ of\ function\ 'print'\ as\ an\ implicit\ VOID\ cast.\n\nTop\ level\ modules:\n\tscore_sort_v2\n\n {} {}} D:/Importantapps/modeltech64_10.7/workfile/mytest/arr_up_down_bound_seq.sv {1 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/mytest/arr_up_down_bound_seq.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module arr_bound
+
+Top level modules:
+	arr_bound
+
+} {} {}} D:/Importantapps/modeltech64_10.7/workfile/week8/compress_array.sv {0 {vlog -work work -vopt -sv -stats=none D:/Importantapps/modeltech64_10.7/workfile/week8/compress_array.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module compressed_array
+** Error: D:/Importantapps/modeltech64_10.7/workfile/week8/compress_array.sv(5): Can't have packed array of integer type.
+
+} {4.0 5.0} {}}

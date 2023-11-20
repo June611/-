@@ -1,0 +1,34 @@
+//import chip_types::*;
+//`include "D:/Importantapps/modeltech64_10.7/workfile/week9/tt_assign_output.sv"
+module testbench();
+	
+	
+	logic clock, resetN;
+	bit green_light, yellow_light, red_light;
+	
+	logic[2:0] a;
+	/*
+	always
+		#10 clock = ~clock;
+	*/
+	initial begin
+		resetN = 0;
+		clock = 0;
+		#20 resetN = 1;
+		a =  3'b111;
+		if(a inside { 3'b1?1})
+			$display("1.  YES"); 
+
+		a =  3'b1x1;
+		if(a inside { 3'b1?1})
+			$display("2.  x YES"); 
+
+		a =  3'b1z1;
+		if(a inside { 3'b1?1})
+			$display("3.  z YES"); 
+	end
+
+	//traffic_light tra_li(.green_light, .yellow_light, .red_light, .clock, .resetN);
+endmodule
+
+//vsim -gui work.testbench -voptargs=+acc

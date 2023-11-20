@@ -1,0 +1,22 @@
+module func_bits();
+
+    bit [63:0] a;
+    logic [63:0] b;
+    wire [3:0][7:0] c [0:15];
+    struct packed{
+        byte tag;
+        logic [31:0] addr;
+    }d;
+	real r;
+	initial begin
+	r=3.17;
+    $display("a is %d bits", $bits(a));
+    $display("b is %d bits", $bits(b));
+    $display("c is %d bits", $bits(c));
+    $display("d is %d bits", $bits(d));
+ 	$display("real is %d bits", $bits(r));
+	$display("a+b is %d bits", $bits(a+b));
+	$display("16'hffaa is %d bits", $bits(16'hffaa));
+	$display("3.8 is %d bits", $bits(3.8));
+	end
+endmodule
